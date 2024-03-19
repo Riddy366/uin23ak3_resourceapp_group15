@@ -1,0 +1,45 @@
+
+body{
+    width: 1500px;
+    height: 500px;
+    background-color:#E1E5EE;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+article{
+    width: 100%;
+    max-width: 850px;
+    font-family: "Montserrat", sans-serif; 
+    background-color: #fff;
+    padding: 3rem;
+    position: relative;
+}
+button {
+    background-color: transparent;
+    border:none;
+    text-decoration: none;
+    color: #E1E5EE;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif; 
+    padding: 2rem;
+    margin: 10px;
+    background-color: #2A324B;
+}
+button:active {
+    background-color: #fff;
+    color: #2A324B;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+li a {
+    color: #58699D;
+}
+
+
