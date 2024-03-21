@@ -1,47 +1,61 @@
+// Colors
+$body-bg: #E1E5EE;
+$button-color: #2A324B;
+$article-bg: #fff;
+$list-color: #58699D;
+// Font
+$article-font: "Montserrat", sans-serif;
+$button-font: "Roboto", sans-serif;
+
+//Sizing
+$button-padding: 2rem;
+$button-margin: 5px; 
+$article-width: 764px;
+
+
 
 body{
     width: 1500px;
     height: 500px;
-    background-color:#E1E5EE;
+    background-color: $body-bg;
     display: flex;
     margin: 0;
     justify-content: center;
 }
 
 article{
-    width: 100%;
+    width: $article-width;
     max-width: 850px;
-    font-family: "Montserrat", sans-serif; 
-    background-color: #fff;
+    font-family: $article-font; 
+    background-color: $article-bg;
     padding: 3rem;
     position: relative;
+    margin-top: -1.5rem;
     text-align: left;
-
 }
 button {
-    background-color: transparent;
     border:none;
     text-decoration: none;
-    color: #E1E5EE;
+    color: $body-bg;
     font-size: 20px;
     font-weight: bold;
-    font-family: "Roboto", sans-serif; 
-    padding: 2rem;
-    margin: 10px;
-    background-color: #2A324B;
+    font-family: $button-font; 
+    padding: $button-padding;
+    margin: $button-margin;
+    background-color: $button-color;
 }
 button:active {
-    background-color: #fff;
-    color: #2A324B;
+    background-color: $article-bg;
+    color: $button-color; 
 }
 
 ul {
     display: flex;
+    padding: 0;
     list-style-type: none;
-
 }
 li a {
-    color: #58699D;
+   
+    color: $list-color;
 }
-
 
