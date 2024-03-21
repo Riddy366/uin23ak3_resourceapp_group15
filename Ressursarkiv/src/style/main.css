@@ -1,18 +1,16 @@
-<<<<<<< Updated upstream
 
 body{
     width: 1500px;
     height: 500px;
     background-color:#E1E5EE;
-=======
+}
 body {
     background-color: #E1E5EE;
->>>>>>> Stashed changes
+
     display: flex;
     margin: 0;
     justify-content: center;
 }
-<<<<<<< Updated upstream
 
 article{
     width: 764px;
@@ -51,7 +49,6 @@ li a {
     color: #58699D;
 }
 
-=======
 
 article {
     width: 100%;
@@ -115,4 +112,3 @@ li a {
         display: flex;
     }
 }
->>>>>>> Stashed changes
