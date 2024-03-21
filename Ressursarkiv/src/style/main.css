@@ -1,22 +1,22 @@
 body {
-    width: 1500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     background-color: #E1E5EE;
     display: flex;
     margin: 0;
     justify-content: center;
+    padding: 1rem;
 
     article {
         width: 100%;
         max-width: 840px;
         font-family: "Montserrat", sans-serif;
         background-color: #fff;
-        padding: 3rem;
+        padding: 1rem;
         position: relative;
-        margin: 0 auto;
+        margin: 1 rem;
         margin-top: -1.5rem;
-        padding-right: 5rem;
-        padding-left: 2.5rem;
+        
     }
 
     button {
@@ -24,7 +24,7 @@ body {
         border: none;
         text-decoration: none;
         color: #E1E5EE;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bold;
         font-family: "Roboto", sans-serif;
         padding: 2rem;
@@ -49,6 +49,7 @@ body {
     ul {
         display: flex;
         list-style-type: none;
+        flex-wrap: wrap;
 
         li a {
             color: #58699D;
