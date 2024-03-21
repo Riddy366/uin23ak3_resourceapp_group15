@@ -1,6 +1,8 @@
 import './App.css'
 import { resources } from './assets/ressurser.js'
-import Layout from './components/Layout.jsx'
+/* Har noen problemer med å hente Layout filen, den funker med å bytte stor 
+ bokstav på components eller til stor hvis den er liten fra før*/
+import Layout from './Components/Layout.jsx' 
 import HTMLResources from './pages/HTMLResources.jsx'
 import './style/main.scss'
 import {Routes, Route} from 'react-router-dom'
