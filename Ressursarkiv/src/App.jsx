@@ -15,8 +15,12 @@ function App() {
           <h1>Ressurskategorier</h1>
           <Layout resources={resources} />
           <Routes>
-            <Route path="/html" element={<HTMLResources/>}/>
-            <Route path="/javascript" element={<JavascriptResources/>}/>
+          <Route index path="/HTML" element={<HTMLResources/>}/>
+            <Route path="/css" element={<HTMLResources/>}/>
+            <Route path="/javascript" element={<HTMLResources/>}/>
+            <Route path="/React" element={<HTMLResources/>}/>
+            <Route path="/Sanity and headless Cms" element={<HTMLResources/>}/>
+
           </Routes>
       </div>
 
