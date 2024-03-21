@@ -30,7 +30,7 @@ button {
     margin: 5px;
     background-color: #2A324B;
 }
-button:active {
+button:hover {
     background-color: #fff;
     color: #2A324B;
 }

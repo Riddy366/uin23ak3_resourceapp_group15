@@ -3,29 +3,33 @@ $body-bg: #E1E5EE;
 $button-color: #2A324B;
 $article-bg: #fff;
 $list-color: #58699D;
+
 // Font
 $article-font: "Montserrat", sans-serif;
 $button-font: "Roboto", sans-serif;
 
-//Sizing
+// Sizing
 $button-padding: 2rem;
 $button-margin: 5px; 
 $article-width: 764px;
 
+// Responsive breakpoints
+$breakpoint-small: 700px;
 
-
-body{
-    width: 1500px;
-    height: 500px;
+body {
+    max-width: 100vw;
+    height: 500px; 
     background-color: $body-bg;
     display: flex;
     margin: 0;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-article{
-    width: $article-width;
-    max-width: 850px;
+article {
+    width: 100%;
+    max-width: $article-width;
     font-family: $article-font; 
     background-color: $article-bg;
     padding: 3rem;
@@ -33,8 +37,9 @@ article{
     margin-top: -1.5rem;
     text-align: left;
 }
+
 button {
-    border:none;
+    border: none;
     text-decoration: none;
     color: $body-bg;
     font-size: 20px;
@@ -43,8 +48,12 @@ button {
     padding: $button-padding;
     margin: $button-margin;
     background-color: $button-color;
+    width: calc(100% - 2 * $button-margin);
+    box-sizing: border-box; 
 }
-button:active {
+
+button:active,
+button:hover {
     background-color: $article-bg;
     color: $button-color; 
 }
@@ -54,8 +63,8 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+
 li a {
-   
     color: $list-color;
 }
 
