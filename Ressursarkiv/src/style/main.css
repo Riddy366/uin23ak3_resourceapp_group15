@@ -1,12 +1,18 @@
+<<<<<<< Updated upstream
 
 body{
     width: 1500px;
     height: 500px;
     background-color:#E1E5EE;
+=======
+body {
+    background-color: #E1E5EE;
+>>>>>>> Stashed changes
     display: flex;
     margin: 0;
     justify-content: center;
 }
+<<<<<<< Updated upstream
 
 article{
     width: 764px;
@@ -45,3 +51,68 @@ li a {
     color: #58699D;
 }
 
+=======
+
+article {
+    width: 100%;
+    max-width: 850px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    padding: 1.5rem;
+    position: relative;
+    margin: 1rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: #E1E5EE;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding: 1.5rem;
+    margin: 10px;
+    background-color: #2A324B;
+}
+
+button:active {
+    background-color: #fff;
+    color: #2A324B;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center;
+    list-style-type: none;
+    width: 100%; /* Make ul width 100% on mobile */
+    padding: 0; /* Remove default padding */
+}
+
+li a {
+    color: #58699D;
+}
+
+/* Media Query for Larger Screens */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 1500px;
+        height: 500px;
+    }
+
+    article {
+        padding: 3rem;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 2rem;
+    }
+
+    ul {
+        display: flex;
+    }
+}
+>>>>>>> Stashed changes
