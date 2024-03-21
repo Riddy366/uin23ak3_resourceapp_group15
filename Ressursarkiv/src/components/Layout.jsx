@@ -16,7 +16,7 @@ export default function Layout({ resources }) {
           <ul id="resourceList">
             {resources.map((resource, index) => (
               <li key={index}>
-                <Link to="HTML"><button onClick={() => selectResource(index)}>{resource.category}</button></Link>
+                <Link to={resource.category}><button onClick={() => selectResource(index)}>{resource.category}</button></Link>
               </li>
             ))}
           </ul>
